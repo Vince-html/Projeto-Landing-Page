@@ -1,6 +1,8 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import Home from './index';
 
-test('renders learn react link', () => {
-  render(<Home />);
+describe('<Home/>', () => {
+  it('should render home', () => {
+    render(<Home />);
+  });
 });

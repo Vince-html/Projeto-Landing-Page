@@ -1,13 +1,25 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
+
+
 * {   margin: 0;
       padding: 0;
-      color: red;
+      box-sizing: border-box;
 }
- body {
+
+html {
+  font-size: 62.5%;
+}
+ body { 
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
  
  }
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+ }
+ 
 
 
 `;
