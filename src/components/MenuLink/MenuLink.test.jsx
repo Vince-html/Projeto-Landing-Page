@@ -38,20 +38,20 @@ describe('<MenuLink />', () => {
         text-decoration: none;
         position: relative;
         font-size: 1.6rem;
-        padding: 0.8rem;
+        padding: 1.6rem;
         color: #0A1128;
       }
 
       .c0::after {
         content: '';
         position: absolute;
-        bottom: 0;
+        bottom: 0.7rem;
         left: 50%;
         width: 0;
         height: 0;
         background: #dc143c;
-        -webkit-transition: all 300ms ease-in-out;
-        transition: all 300ms ease-in-out;
+        -webkit-transition: all 200ms ease-in-out;
+        transition: all 200ms ease-in-out;
       }
 
       .c0:hover::after {

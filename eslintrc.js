@@ -29,6 +29,6 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
     'no-unused-vars': 'off',
-    'no-anonymous-default-export': 'off',
+    'no-anonymous-default-export': 'false',
   },
 };
