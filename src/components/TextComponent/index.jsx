@@ -3,7 +3,7 @@ import { Container } from './style';
 import React from 'react';
 
 export const TextComponent = ({ children }) => {
-  return <Container>{children}</Container>;
+  return <Container dangerouslySetInnerHTML={{ __html: children }} />;
 };
 
 TextComponent.propTypes = {
