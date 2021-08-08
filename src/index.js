@@ -6,8 +6,8 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 ReactDOM.render(
   <React.StrictMode>
-    <GlobalStyle />
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <Home />
     </ThemeProvider>
   </React.StrictMode>,

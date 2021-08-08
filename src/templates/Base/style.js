@@ -2,6 +2,10 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.medium};
+    padding-top: 3.2rem;
+
+    @media ${theme.media.lteMedium} {
+      padding-top: 0;
+    }
   `}
 `;

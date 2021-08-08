@@ -53,15 +53,15 @@ exports[`<GridContent /> should render grid content 1`] = `
       <div
         class="c2"
       >
-        <h1
+        <h2
           class="c3"
         >
           O título que eu quero
-        </h1>
+        </h2>
         <div
           class=""
         >
-          <p
+          <div
             class="c4"
           >
             <p>
@@ -135,7 +135,7 @@ exports[`<GridContent /> should render grid content 1`] = `
             </ul>
             
  
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -143,7 +143,7 @@ exports[`<GridContent /> should render grid content 1`] = `
 </div>
 `;
 
-exports[`<GridContent /> should render grid content 2`] = `
+exports[`<GridContent /> should render grird content 1`] = `
 .c2 {
   text-align: center;
   max-width: 58rem;
@@ -196,15 +196,15 @@ exports[`<GridContent /> should render grid content 2`] = `
       <div
         class="c2"
       >
-        <h1
+        <h2
           class="c3"
         >
           O título que eu quero
-        </h1>
+        </h2>
         <div
           class=""
         >
-          <p
+          <div
             class="c4"
           >
             <p>
@@ -278,7 +278,7 @@ exports[`<GridContent /> should render grid content 2`] = `
             </ul>
             
  
-          </p>
+          </div>
         </div>
       </div>
     </div>

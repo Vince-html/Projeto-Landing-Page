@@ -75,7 +75,7 @@ export const Button = styled.button`
     right: 2rem;
     width: 4rem;
     height: 4rem;
-    background: ${theme.colors.white};
+    background: white;
     color: ${theme.colors.primaryColor};
     border: none;
     display: none;
